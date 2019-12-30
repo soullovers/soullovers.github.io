@@ -95,7 +95,7 @@ done
 	- Map에서 출력된 key-value쌍을 수신할 리듀서를 판단하는 파티셔닝
 	- 해당 리듀서에 대해 모든 입력키를 정렬
 
-![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/public/hddg_0201.png?raw=true "맵과리듀스")
+![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/hddg_0201.png?raw=true "맵과리듀스")
   
   > 1.키-값 쌍으로 변환되어 입력
   > 2.연도와 기온을 추출하여 출력
@@ -254,7 +254,7 @@ $ cat output/part-r-00000   // 리듀스가 하나이므로 파일 1개 생성
 - 데이터 복제본이 저장된 노드가 없는 외부 랙의 노드가 선택될 경우 랙 간에 네트워크 전송이 불가피하게 일어남. (c)
 - 리듀스태스크는 모든 맵의 결과를 입력으로 받으므로 데이터 지역성의 장점이 없다.
 
-![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/public/hddg_0202.png?raw=true "데이터 지역성 최적화")
+![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/hddg_0202.png?raw=true "데이터 지역성 최적화")
 
 
 
@@ -272,10 +272,10 @@ $ cat output/part-r-00000   // 리듀스가 하나이므로 파일 1개 생성
 
 #### 단일 리듀스 테스크의 맵 리듀스 데이터 흐름
 
-![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/public/hddg_0203.png?raw=true "단일 리듀스 테스크의 맵 리듀스 데이터 흐름")
+![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/hddg_0203.png?raw=true "단일 리듀스 테스크의 맵 리듀스 데이터 흐름")
 
 #### 다수의 리듀스 태스크의 맵 리듀스 데이터 흐름
-![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/public/hddg_0204.png?raw=true "다수의 리듀스 태스크의 맵 리듀스 데이터 흐름")
+![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/hddg_0204.png?raw=true "다수의 리듀스 태스크의 맵 리듀스 데이터 흐름")
 - 리듀스 수만큼 파티션을 생성하고 맵의 결과를 각 파티션에 분배한다.
 - 같은 키에 속한 모든 레코드는 같은 파티션에 배치
 - 파티셔닝
@@ -290,7 +290,7 @@ $ cat output/part-r-00000   // 리듀스가 하나이므로 파일 1개 생성
 - 리듀스 함수를 컴파이너 함수로 재사용할수 있다.
 - 모든 함수에 적용은 불가능(ex:mean())
 
-![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/public/combiner2.png?raw=true "컴바이너")
+![이미지](hhttps://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/combiner2.png?raw=true "컴바이너")
 
 
 - 컴바이너
