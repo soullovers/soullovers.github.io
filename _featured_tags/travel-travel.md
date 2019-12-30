@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Japan
-slug: japan
-category: tip
+title: Travel
+slug: travel
+category: travel
 menu: false
 order: 1
 ---
