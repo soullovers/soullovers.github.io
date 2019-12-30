@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "쿠버네티스 소개"
+title: "쿠버네티스 설치"
 categories:
   - dev
 tags:
