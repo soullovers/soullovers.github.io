@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Algorithm
-slug: algorithm
+title: Kubernates
+slug: kubernates
 category: dev
 menu: false
-order: 4
+order: 2
 ---
