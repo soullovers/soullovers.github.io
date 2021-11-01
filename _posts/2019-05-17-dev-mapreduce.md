@@ -290,8 +290,7 @@ $ cat output/part-r-00000   // 리듀스가 하나이므로 파일 1개 생성
 - 리듀스 함수를 컴파이너 함수로 재사용할수 있다.
 - 모든 함수에 적용은 불가능(ex:mean())
 
-![이미지](hhttps://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/combiner2.png?raw=true "컴바이너")
-
+![이미지](https://github.com/soullovers/soullovers.github.io/blob/master/assets/img/docs/combiner2.png?raw=true "컴바이너")
 
 - 컴바이너
 ```
